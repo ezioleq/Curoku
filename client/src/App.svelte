@@ -1,10 +1,18 @@
 <script lang="ts">
-  import Counter from './lib/Counter.svelte'
+  import { Canvas } from '@threlte/core';
+  import Scene from './lib/Scene.svelte';
 </script>
 
 <main>
-  <Counter />
+  <div class="container">
+    <Canvas>
+      <Scene/>
+    </Canvas>
+  </div>
 </main>
 
 <style>
+  .container {
+    height: 100vh;
+  }
 </style>
