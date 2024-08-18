@@ -2,6 +2,7 @@
 name = "curoku"
 version = "0.1.0"
 edition = "2021"
+build = "build.rs"
 
 [dependencies]
 assert_matches = "1.5.0"
