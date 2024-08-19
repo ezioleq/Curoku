@@ -1,7 +1,11 @@
 :root {
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+
+  background-color: #1d1d1d;
+  background-image: url("assets/noise.svg");
+  background-blend-mode: multiply;
+  background-size: 512px;
 }
 
 body {
@@ -17,6 +21,7 @@ body {
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
-    background-color: #ffffff;
+    background-color: rgba(168, 168, 168, 0.87);
+    background-blend-mode: color;
   }
 }
