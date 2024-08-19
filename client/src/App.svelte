@@ -3,12 +3,12 @@
   import Scene from './lib/Scene.svelte';
 </script>
 
-<main>
-  <div class="container">
-    <Canvas>
-      <Scene/>
-    </Canvas>
-  </div>
+<main class="container">
+  <Navbar/>
+  <Canvas>
+    <Scene/>
+  </Canvas>
+  <div class="background-glow"/>
 </main>
 
 <style>
